@@ -1,10 +1,4 @@
-### 문제 설명
 
-자연수 n이 매개변수로 주어집니다. n을 3진법 상에서 앞뒤로 뒤집은 후, 이를 다시 10진법으로 표현한 수를 return 하도록 solution 함수를 완성해주세요.
-
-### Code
-
-```javascript
 function solution(n) {
        //주어진 수 n을 뒤집힌 3진법으로 바꾼다.
         let ternary = [];
@@ -17,8 +11,3 @@ function solution(n) {
         //parseInt(str,3)을 이용해 10진수로 바꿔준 후 리턴한다.
         return parseInt(str, 3);
 }
-```
-
-### 문제 url
-
-https://programmers.co.kr/learn/courses/30/lessons/68935
