@@ -1,8 +1,3 @@
-### 문제 설명
-단어 s의 가운데 글자를 반환하는 함수, solution을 만들어 보세요. 단어의 길이가 짝수라면 가운데 두글자를 반환하면 됩니다.
-
-### Code
-```js
 function solution(s) {
  // 단어의 길이가 홀수 --> 중간 인덱스 반환
  // 단어의 길이가 짝수 --> 가운데 두 인덱스 반환 
@@ -15,7 +10,3 @@ function solution(s) {
         return s.slice(mid - 1, mid + 1);
     }
 }
-```
-
-### 문제 url
-https://programmers.co.kr/learn/courses/30/lessons/12903
