@@ -1,4 +1,3 @@
-
 function solution(seoul) {
     // 배열에서 kim의 인덱스를 찾는다
     // let x = indexOf(kim)
