@@ -1,5 +1,5 @@
 function solution(arr) {
-  let answer = 0, cnt = 0;
+  let result = 0, cnt = 0;
   // 누적되는 값의 지표인 cnt를 설정해줌
   
   for (let i = 0; i < arr.length; i++) {
@@ -7,8 +7,8 @@ function solution(arr) {
       cnt = 0; 
     } else {
       cnt++; 
-      answer += cnt;
+      result += cnt;
     }
   } 
-  return answer;
+  return result;
 }
