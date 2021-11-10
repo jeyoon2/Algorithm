@@ -3,3 +3,15 @@ function solution(arr) {
   let ranks = arr.map((el) => sorted.indexOf(el) + 1);
   return ranks;
 }
+
+// 다른 풀이
+function solution5(arr) {
+  let n = arr.length;
+  let answer = Array.from({ length: n }, () => 1); // [1,1,1,1,1]
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      if (arr[j] > arr[i]) answer[i]++;
+    }
+  }
+  return answer;
+}
