@@ -9,7 +9,6 @@ function solution(s) {
       continue;
     } else {
       let result = Number.MAX_SAFE_INTEGER;
-
       for (let j = 0; j < forwards.length; j++) {
         if (s[i] === s[j]) {
           if (result > i - j) {
